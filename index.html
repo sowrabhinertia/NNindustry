@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="NN Industires">
+    <meta name="keywords" content="The Summit Conference, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NN Industires</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/flaticon.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+    <style type="text/css">
+      .slider {
+          width: 93%;
+          margin: 100px auto;
+      }
+      .slick-slide {
+        margin: 0px 20px;
+      }
+      .slick-slide img {
+        width: 100%;
+      }
+      .slick-prev:before,
+      .slick-next:before {
+        color: black;
+      }
+      .slick-slide {
+        transition: all ease-in-out .3s;
+        opacity: 1;
+      }
+      .slick-active {
+        opacity: .5;
+      }
+      .slick-current {
+        opacity: 1;
+      }
+      .hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/slider/slide10.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.round {
+    position: absolute;
+    border: 2px solid #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+
+}
+
+#cta{
+    width:100%; cursor: pointer; position: absolute;
+}
+
+#cta .arrow{left: 30%;}
+.arrow {position: absolute; bottom: 0;  margin-left:0px; width: 12px; height: 12px; background-size: contain; top:15px;}
+.segunda{margin-left: 8px;}
+.next {
+	background-image: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHN0eWxlPi5zdDB7ZmlsbDojZmZmfTwvc3R5bGU+PHBhdGggY2xhc3M9InN0MCIgZD0iTTMxOS4xIDIxN2MyMC4yIDIwLjIgMTkuOSA1My4yLS42IDczLjdzLTUzLjUgMjAuOC03My43LjZsLTE5MC0xOTBjLTIwLjEtMjAuMi0xOS44LTUzLjIuNy03My43UzEwOSA2LjggMTI5LjEgMjdsMTkwIDE5MHoiLz48cGF0aCBjbGFzcz0ic3QwIiBkPSJNMzE5LjEgMjkwLjVjMjAuMi0yMC4yIDE5LjktNTMuMi0uNi03My43cy01My41LTIwLjgtNzMuNy0uNmwtMTkwIDE5MGMtMjAuMiAyMC4yLTE5LjkgNTMuMi42IDczLjdzNTMuNSAyMC44IDczLjcuNmwxOTAtMTkweiIvPjwvc3ZnPg==);
+}
+
+@keyframes bounceAlpha {
+  0% {opacity: 1; transform: translateX(0px) scale(1);}
+  25%{opacity: 0; transform:translateX(10px) scale(0.9);}
+  26%{opacity: 0; transform:translateX(-10px) scale(0.9);}
+  55% {opacity: 1; transform: translateX(0px) scale(1);}
+}
+
+.bounceAlpha {
+    animation-name: bounceAlpha;
+    animation-duration:1.4s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+
+.arrow.primera.bounceAlpha {
+    animation-name: bounceAlpha;
+    animation-duration:1.4s;
+    animation-delay:0.2s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+
+.round:hover .arrow{
+    animation-name: bounceAlpha;
+    animation-duration:1.4s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+.round:hover .arrow.primera{
+    animation-name: bounceAlpha;
+    animation-duration:1.4s;
+    animation-delay:0.2s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+@media only screen and (max-width: 600px) {
+  .clie
+  {
+    display:none;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .clie1
+  {
+    display:none;
+  }
+}
+
+    </style>
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+    <header class="header-section">
+        <div class="container-fluid">
+            <div class="row bg-overlay">
+                <div class="header">
+                    <div class="col-lg-12">
+                        <div class="logo">
+                            <a href="./index.html"><img style="width:100px;"src="img/nnlogo.png" alt=""></a>
+                        </div>
+                        <div class="navigation mobile-menu">
+                            <div class="main-menu">
+                                <nav>
+                                    <ul>
+                                        <li><a class="active" href="./index.html">Home</a></li>
+                                        <li><a href="./speakers.html">Clients</a></li>
+                                        <li><a href="./tickets.html">gallery</a></li>
+                                        <li><a href="./blog.html">About Us</a></li>
+                                        <li><a href="./contact.html">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div id="mobile-menu-wrap"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Search Bar Begin -->
+    <!-- Search Bar End -->
+    <!-- Hero Area Begin
+    <div class="hero-section" >
+        <div class="hero-items owl-carousel">
+            <div class="single-hero-item set-bg" data-setbg="img/slider/slide5.svg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1>NN Industires<br /></h1>
+                            <h2 class="f-bold" style="color:black;"><p><span style="color:black;">Precision Industrial Turned &</span><span style="color:black;">Machine Components</span></h2>
+                            <h4 class="f-bold" style="color:#2f2f31;">Peenya Industrial Area, Bangalore - 560 058</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     Hero Area End -->
+     <div class="hero-image ">
+           <div class="single-hero-item set-bg" >
+               <div class="container">
+                   <div class="row">
+                       <div class="col-lg-12  ">
+                           <h1 style="color:white;margin-top:230px;">NN INDUSTRIES<br /></h1>
+                           <h3  style="color:#ff1694;font-family: Arial">Precision Industrial Turned & Machine Components<br></h3>
+                           <h4 style="color:grey;margin-top:10px;font-family: Arial">Peenya Industrial Area, Bangalore - 560 058</h4>
+                       </div>
+                   </div>
+           </div>
+       </div>
+     </div>
+    <!-- Event Counter Begin -->
+    <section class="event-counter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="event-name">
+                        <h3 style="color:white;">We are the leading manufactures in Bangalore<br><br></h3>
+                        <a href="blog.html"><h4><span>Contact Us</span></h4></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Event Counter End -->
+    <!-- Workshop Begin -->
+    <section class="workshop-section">
+        <div class="container col-md-8">
+                    <div class="workshop-text " style="margin-left:1px;">
+                        <h2 style="color:#152238">Welcome to NN Industries.</h2>
+                        <p>NN INDUSTRIES has been catering to the
+                          engineering needs of innumerable industrial houses for more
+                          than a 3 years. Mr. Khandoji Navale and Mr. Harish Nazare started M/S. NN INDUSTRIES
+                          in the year 2017 with the young minds collectively having 20 years of experience in
+                          manufacturing of precision machined components joining together to support the OEM’s
+                          in Manufacturing sector. </p>
+                          <!-- Blog Area Begin -->
+                          <section class="blog-section spad">
+                              <div class="blog-items">
+                                  <div class="container">
+                                      <div class="row">
+                                          <div class="col-lg-4 col-md-6">
+                                              <div class="single-blog">
+                                                  <div class="blog-img">
+                                                      <img src="img/blog/vision.jpg" alt="" height="206px">
+                                                  </div>
+                                                  <div class="blog-details">
+                                                      <h4 style="color:#152238">Vision</h4>
+                                                      <p>To emerge out as a preferred name in the industry
+                                                         by exceeding customer expectations with the best products
+                                                         through innovation and technology excellence.</p>
+                                                      <a href="blog.html" class="read-btn">Read More</a>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="col-lg-4 col-md-6">
+                                              <div class="single-blog">
+                                                  <div class="blog-img">
+                                                      <img src="img/blog/miss1.jpg" alt="" height="206px">
+                                                  </div>
+                                                  <div class="blog-details">
+                                                      <h4 style="color:#152238">Mission</h4>
+                                                      <p>To be the reliable and innovative
+                                                        manufacturer of hydraulic products
+                                                        by using our resources in an efficient
+                                                       and effective manner with integrity.</p>
+                                                      <a href="blog.html" class="read-btn">Read More</a>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="col-lg-4 col-md-6">
+                                              <div class="single-blog">
+                                                  <div class="blog-img">
+                                                      <img src="img/blog/qual.jpg" height="206px" alt="">
+                                                  </div>
+                                                  <div class="blog-details">
+                                                      <h4 style="color:#152238">Quality Policy</h4>
+                                                      <p>NN Industries is committed towards quality products at cost
+                                                         effective and on-time delivery (QCD) through continual
+                                                         improvement in process.</p>
+                                                      <a href="blog.html" class="read-btn">Read More</a>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </section>
+                    </div>
+        </div>
+    </section>
+
+    <!-- Speaker Section Begin -->
+    <section class="speaker-section spad" style="margin-top:-65px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2 style="color:#152238">Our products</h2>
+                    </div>
+                </div>
+            </div>
+            <section class="variable slider" style="margin-top:-50px;">
+              <div>
+                <img src="img/prod1.jpg" alt="">
+              </div>
+              <div>
+                <img src="img/prod2.jpg" alt="" >
+              </div>
+              <div>
+                <img src="img/prod3.jpg" alt="" >
+              </div>
+              <div>
+                <img src="img/prod4.jpg" alt="">
+              </div>
+              <div>
+                <img src="img/prod5.jpg" alt="">
+              </div>
+              <div>
+                <img src="img/prod6.jpg" alt="" >
+              </div>
+            </section><br>
+            <div class="row">
+                <div class="col-lg-12 t-center">
+                    <button class="btn btn-success shadow" style="margin-left:15px;"><a href="tickets.html" style="color:white;">ALL PRODUCTS</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Speaker Section End -->
+
+
+    <!-- Subscribe Form End -->
+    <!-- Footer End -->
+    <section class="subscribe-form set-bg spad clie" data-setbg="img/subs-bg.jpg">
+        <div>
+          <div class="container col-lg-12">
+              <div class="section-title">
+                  <h2 style="color:white">Our clients</h2>
+              </div>
+          </div>
+          <div class="col-12" style="margin-left:80px;">
+            <a href="https://www.bucherhydraulics.com/30971/start/start.aspx" target="_blank">
+              <image src="img/client/buch1.jpg" style="height:130px;width:130px;border-radius:50%;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25)" >
+              </a>
+              <a href="http://duttaenterprises.in/" target="_blank" style="margin-left:50px;">
+                <image src="img/client/client2.jpg" style="height:130px;width:130px;border-radius:50%;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25)" >
+              </a>
+              <a href="#" target="_blank" style="margin-left:50px;">
+                  <image src="img/client/client3.jpg" style="height:130px;width:130px;border-radius:50%;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25)" >
+              </a>
+              <a href="http://www.hycomengineering.com/" target="_blank" style="margin-left:50px;">
+                  <image src="img/client/client4.jpg" style="height:130px;width:130px;border-radius:50%;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25)" >
+              </a>
+              <a href="http://www.hydroma.in/" target="_blank" style="margin-left:50px;">
+                  <image src="img/client/client5.jpg" style="height:130px;width:130px;border-radius:50%;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25)" >
+              </a>
+              <a href="http://www.hydroma.in/" target="_blank" style="margin-left:50px;">
+                  <image src="img/client/client6.jpg" style="height:130px;width:130px;border-radius:50%;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25)" >
+              </a>
+    <a href="speakers.html">
+    <div class="round" style="margin-top:-80px;margin-left:1100px;">
+        <div id="cta" style="margin-top:-3px;">
+            <span class="arrow primera next "></span>
+            <span class="arrow segunda next "></span>
+                </div>
+            </div>
+        </a>
+          </div>
+        </div>
+    </section>
+    <section class="subscribe-form set-bg spad clie1" data-setbg="img/subs-bg.jpg">
+        <div>
+          <div class="container col-lg-12">
+              <div class="section-title">
+                  <h2 style="color:white">Our clients</h2>
+              </div>
+          </div>
+          <div class="container">
+          <div class="col-12">
+            <a href="https://www.bucherhydraulics.com/30971/start/start.aspx" target="_blank">
+              <image src="img/client/buch1.jpg" style="height:130px;width:130px;border-radius:50%;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25)" >
+              </a>
+              <a href="http://duttaenterprises.in/" target="_blank" >
+                <image src="img/client/client2.jpg" style="height:130px;width:130px;border-radius:50%;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25)" >
+              </a>
+              <a href="#" target="_blank" >
+                  <image src="img/client/client3.jpg" style="height:130px;width:130px;border-radius:50%;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25)" >
+              </a>
+              <a href="http://www.hycomengineering.com/" target="_blank" >
+                  <image src="img/client/client4.jpg" style="height:130px;width:130px;border-radius:50%;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25)" >
+              </a>
+              <a href="http://www.hydroma.in/" target="_blank" >
+                  <image src="img/client/client5.jpg" style="height:130px;width:130px;border-radius:50%;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25)" >
+              </a>
+              <a href="http://www.hydroma.in/" target="_blank" >
+                  <image src="img/client/client6.jpg" style="height:130px;width:130px;border-radius:50%;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25)" >
+              </a>
+    <a href="speakers.html">
+    <div class="round">
+        <div id="cta" style="margin-top:-3px;">
+            <span class="arrow primera next "></span>
+            <span class="arrow segunda next "></span>
+                </div>
+            </div>
+        </a>
+          </div>
+        </div>
+        </div>
+    </section>
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row pb-70">
+              <div class="col-lg-3 col-md-6">
+                  <div class="contact-widget">
+                      <h4>Contact</h4>
+                      <ul>
+                          <li><i class="flaticon-placeholder-3"></i> <span>#707/2 , Maruthi layout,
+                            2nd Phase peenya industrial area,
+                            Bangalore-560058
+                            Karnataka - India</span></li>
+                          <li><img src="img/phone.png" alt=""> <span>+91 99455 47338</span></li>
+                          <li><img src="img/envelop.png" alt=""> <span>nnindustriesll@gmail.com</span></li>
+                      </ul>
+                  </div>
+              </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="links-widget">
+                        <h4>Usefull Links</h4>
+                        <ul>
+                            <li ><a href="#" style="color:white;">Home</a></li>
+                            <li><a href="#" style="color:white;">Clients</a></li>
+                            <li><a href="#" style="color:white;">Gallery</a></li>
+                            <li><a href="#" style="color:white;">About Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright-area" style="text-align:center">
+            <div class="container">
+                <p style="color:white;">With <span style="color:red">&#10084</span> from PESU Bangalore</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/circle-progress.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/main.js"></script>
+
+      <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+      <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+      <script type="text/javascript">
+        $(document).on('ready', function() {
+          $(".vertical-center-4").slick({
+            dots: true,
+            vertical: true,
+            centerMode: true,
+            slidesToShow: 4,
+            slidesToScroll: 2
+          });
+          $(".vertical-center-3").slick({
+            dots: true,
+            vertical: true,
+            centerMode: true,
+            slidesToShow: 3,
+            slidesToScroll: 3
+          });
+          $(".vertical-center-2").slick({
+            dots: true,
+            vertical: true,
+            centerMode: true,
+            slidesToShow: 2,
+            slidesToScroll: 2
+          });
+          $(".vertical-center").slick({
+            dots: true,
+            vertical: true,
+            centerMode: true,
+          });
+          $(".vertical").slick({
+            dots: true,
+            vertical: true,
+            slidesToShow: 3,
+            slidesToScroll: 3
+          });
+          $(".regular").slick({
+            dots: true,
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 3
+          });
+          $(".center").slick({
+            dots: true,
+            infinite: true,
+            centerMode: true,
+            slidesToShow: 5,
+            slidesToScroll: 3
+          });
+          $(".variable").slick({
+            dots: true,
+            infinite: true,
+            variableWidth: true
+          });
+          $(".lazy").slick({
+            lazyLoad: 'ondemand', // ondemand progressive anticipated
+            infinite: true
+          });
+        });
+
+    </script>
+
+</body>
+
+</html>
