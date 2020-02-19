@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <link rel="shortcut icon" type="image/png" href="img\log.png">
-    <meta name="description" content="contact">
-    <meta name="keywords" content="contact">
+    <meta name="description" content="enquiry">
+    <meta name="keywords" content="enquiry">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>contact</title>
+    <title>enquiry</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet">
@@ -20,6 +20,26 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script>
+    function fun()
+    {
+      alert("We will get back to you soon");
+    }
+    </script>
+    <style>
+    @media only screen and (min-width: 600px) {
+      .e1
+      {
+        display:none;
+      }
+    }
+    @media only screen and (max-width: 600px) {
+      .e2
+      {
+        display:none;
+      }
+    }
+    </style>
 </head>
 
 <body>
@@ -34,7 +54,7 @@
                 <div class="header">
                     <div class="col-lg-12">
                         <div class="logo">
-                          <a href="./index.html"><img style="width:210px;margin-top:-25px;"src="img/nnlogo.png" alt=""></a>
+                          <a href="./index.html"><img style="width:230px;margin-top:-25px;"src="img/nnlogo.png" alt=""></a>
                         </div>
                         <div class="navigation mobile-menu">
                             <div class="main-menu">
@@ -44,8 +64,8 @@
                                     <li><a href="./blog.html">About Us</a></li>
                                     <li><a href="./tickets.html">Products</a></li>
                                     <li><a href="./speakers.html">Clients</a></li>
-                                    <li><a class="active" href="./contact.html">Contact</a></li>
-                                    <li><a href="./enq.html">Enquiry</a></li>
+                                    <li><a href="./contact.html">Contact</a></li>
+                                    <li><a class="active" href="./enq.html">Enquiry</a></li>
                                   </ul>
                                 </nav>
                             </div>
@@ -66,7 +86,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="hero-text">
-                      <h3 style="color:white;font-size:50px;">CONTACT</h3>
+                      <h3 style="color:white;font-size:50px;">ENQUIRY</h3>
                     </div>
                 </div>
             </div>
@@ -74,26 +94,68 @@
     </div>
     <!-- Hero Area End -->
     <!-- Contact Section Begin -->
-    <section class="contact-section " style="padding:30px;">
-    <center>
-      <div class="card shadow" style="border:none;background-color:#02074d;">
+    <section class="contact-section e1" style="padding:30px;">
+
+      <div class="card shadow" style="border:none;background-color:#02074d;border-bottom:3px solid #e75480;">
   <div class="card-body">
-    <h5 class="card-title" style="color:#b00000;">NN INDUSTRIES</h5>
-    <h6 class="card-subtitle " style="color:blue;">Precision Industrial Turned & Machined Components</h6>
-    <hr>
-    <p style="color:white;">
-    <b style="">Address:</b>  #707/2, Maruthi Layout,
-  2nd Phase Peenya industrial area,
-  Bangalore-560058, Karnataka - India
-    </p style="color:white;">
-    <hr>
-    <p style="color:white;"><b style="">Phone: </b> +91 99455 47338 </p>
-  <hr>
-  <p style="color:white;"><b style="">Email: </b> nnindustriesll@gmail.com</p>
+    <iframe id="invisible" name="invisible" style="display:none;"></iframe>
+    <form method="POST" action="https://script.google.com/macros/s/AKfycbzoLCoNVJ8rwCgdRyh6OWD7SCNuymye9G9QXkinsw/exec" onsubmit="fun()" target="invisible">
+      <center><h6 class="card-subtitle " style="color:red;">Let us know about your requirements</h6></center>
+      <hr style="border:0.2px solid white;">
+      <div class="form-group">
+        <label for="exampleInputPassword1" style="color:white;">Name</label>
+        <input type="text" name="name" class="form-control" id="exampleInputPassword1" placeholder="Enter your name" required>
+      </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1" style="color:white;">Email address</label>
+    <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email address" required>
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1" style="color:white;">Contact number</label>
+    <input type="Number" name="contact" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter contact number" required>
+</div>
+<div class="form-group">
+  <label for="exampleInputPassword1" style="color:white;">Your enquiry</label>
+  <TEXTAREA class="form-control" name="message" placeholder="Enter your enquiry ..." required></TEXTAREA>
+  <br>
+</div>
+<button type="submit" class="btn btn-primary form-control">Submit</button>
+</form>
   </div>
 </div>
-    </center>
     </section>
+    <section class="contact-section e2" style="padding:30px;padding-left:350px;">
+
+      <div class="card shadow col-md-8" style="border:none;background-color:#02074d;border-bottom:3px solid #e75480;">
+  <div class="card-body ">
+    <iframe id="invisible" name="invisible" style="display:none;"></iframe>
+    <form method="POST" action="https://script.google.com/macros/s/AKfycbzoLCoNVJ8rwCgdRyh6OWD7SCNuymye9G9QXkinsw/exec" onsubmit="fun()" target="invisible">
+      <center><h6 class="card-subtitle " style="color:red;">Let us know about your requirements</h6></center>
+      <hr style="border:0.2px solid white;">
+      <div class="form-group">
+        <label for="exampleInputPassword1" style="color:white;">Name</label>
+        <input type="text" name="name" class="form-control shadow" id="exampleInputPassword1" placeholder="Enter your name" required>
+      </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1" style="color:white;">Email address</label>
+    <input type="email" name="email" class="form-control shadow" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email address" required>
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1" style="color:white;">Contact number</label>
+    <input type="Number" name="contact" class="form-control shadow" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter contact number" required>
+</div>
+<div class="form-group">
+  <label for="exampleInputPassword1" style="color:white;">Your enquiry</label>
+  <TEXTAREA class="form-control shadow" name="message" placeholder="Enter your enquiry ..." required></TEXTAREA>
+  <br>
+</div>
+<button type="submit" class="btn btn-primary form-control">Submit</button>
+</form>
+  </div>
+</div>
+</section>
     <!-- Contact Section End -->
     <!-- Footer Begin -->
     <footer class="footer-section">
@@ -105,7 +167,7 @@
               </div>
               <div class="col-md-4">
                   <div class="contact-widget">
-                      <h4>Contact</h4>
+                      <h4>Enquiry</h4>
                       <ul style="margin-top:-20px;">
                           <li><i class="flaticon-placeholder-3"></i> <span>#707/2 , Maruthi layout,
                             2nd Phase peenya industrial area,
@@ -145,6 +207,7 @@
     <script src="js/circle-progress.min.js"></script>
     <script src="js/jquery.countdown.min.js"></script>
     <script src="js/main.js"></script>
+    <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 </body>
 
 </html>

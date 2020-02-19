@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" type="image/png" href="C:\intern\NNindustry\img\nnlogo.png">
+    <link rel="shortcut icon" type="image/png" href="img\log.png">
     <meta name="description" content="NN Industires">
     <meta name="keywords" content="clients">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -48,7 +48,7 @@
         opacity: 1;
       }
       .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/slider/slide10.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/slider/slide12.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -128,6 +128,16 @@
     font-size: 55px;
   }
 }
+@media only screen and (min-width: 500px) {
+  .max{
+    display: none;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .min{
+    display: none;
+  }
+}
 #myBtn {
   display: none;
   width: 50px;
@@ -160,21 +170,22 @@
     <!-- Header Section Begin -->
     <header class="header-section">
         <div class="container-fluid">
-            <div class="row bg-overlay">
+            <div class="row" style="background-color:#02075d;">
                 <div class="header">
                     <div class="col-lg-12">
                         <div class="logo">
-                            <a href="./index.html"><img style="width:200px;margin-top:-20px;"src="img/nnlogo.png" alt=""></a>
+                            <a href="./index.html"><img style="width:230px;margin-top:-25px;"src="img/nnlogo.png" alt=""></a>
                         </div>
                         <div class="navigation mobile-menu">
                             <div class="main-menu">
                                 <nav>
                                   <ul>
                                     <li><a class="active" href="./index.html">Home</a></li>
-                                    <li><a href="./speakers.html">Clients</a></li>
-                                    <li><a href="./tickets.html">Products</a></li>
                                     <li><a href="./blog.html">About Us</a></li>
+                                    <li><a href="./tickets.html">Products</a></li>
+                                    <li><a href="./speakers.html">Clients</a></li>
                                     <li><a href="./contact.html">Contact</a></li>
+                                    <li><a href="./enq.html">Enquiry</a></li>
                                   </ul>
                                 </nav>
                             </div>
@@ -206,19 +217,29 @@
         </div>
     </div>
      Hero Area End -->
-     <div class="hero-image ">
+     <div class="hero-area set-bg" data-setbg="img/slider/slide12.jpg" style="height:560px;">
+         <div class="container">
            <div class="single-hero-item set-bg" >
                <div class="container">
-                   <div class="row">
+                   <div class="row min">
                        <div class="col-lg-12  ">
-                           <h1 class="sit" style="color:white;margin-top:230px;">NN INDUSTRIES<br /></h1>
-                           <h3  style="color:#ff1694;font-family: Arial">Precision Industrial Turned & Machine Components<br></h3>
-                           <h4 style="color:grey;margin-top:10px;font-family: Arial">Peenya Industrial Area, Bangalore - 560 058</h4>
+                           <h1 class="sit" style="color:white;margin-top:40px;">NN INDUSTRIES<br /></h1>
+                           <h3  style="color:#ff0000;font-family: Arial;opacity:0.9;">Precision Industrial Turned & Machined Components<br></h3>
+                           <h4 style="color:#00008b;margin-top:10px;font-family: Arial;opacity:0.9;">Peenya Industrial Area, Bangalore - 560 058</h4>
+                       </div>
+                   </div>
+                   <div class="row max">
+                       <div class="col-lg-12  ">
+                           <h1 class="sit" style="color:white;margin-top:-20px;">NN INDUSTRIES<br /></h1>
+                           <h3  style="color:#ff0000;font-family: Arial;opacity:0.9;">Precision Industrial Turned & Machined Components<br></h3>
+                           <h4 style="color:#00008b;margin-top:10px;font-family: Arial;opacity:0.9;">Peenya Industrial Area, Bangalore - 560 058</h4>
                        </div>
                    </div>
            </div>
        </div>
+         </div>
      </div>
+
     <!-- Event Counter Begin -->
     <section class="event-counter">
         <div class="container">
@@ -241,7 +262,7 @@
                         <p>NN INDUSTRIES has been catering to the
                           engineering needs of innumerable industrial houses for more
                           than a 3 years. Mr. Khandoji Navale and Mr. Harish Nazare started M/S. NN INDUSTRIES
-                          in the year 2017 with the young minds collectively having 20 years of experience in
+                          in the year 2011 with the young minds collectively having 20 years of experience in
                           manufacturing of precision machined components joining together to support the OEM’s
                           in Manufacturing sector. </p>
                           <!-- Blog Area Begin -->
@@ -439,10 +460,10 @@
                     <div class="links-widget">
                         <h4>Usefull Links</h4>
                         <ul style="margin-top:-20px;">
-                            <li style="margin-top:-10px;">&#x27A4 <a href="file:///C:/intern/NNindustry/index.html" style="color:white">Home</a></li>
-                            <li style="margin-top:-10px;">&#x27A4 <a href="file:///C:/intern/NNindustry/speakers.html" style="color:white;">Clients</a></li>
-                            <li style="margin-top:-10px;">&#x27A4 <a href="file:///C:/intern/NNindustry/tickets.html" style="color:white;">Products</a></li>
-                            <li style="margin-top:-10px;">&#x27A4 <a href="file:///C:/intern/NNindustry/blog.html" style="color:white;">About Us</a></li>
+                            <li style="margin-top:-10px;">&#x27A4 <a href="index.html" style="color:white">Home</a></li>
+                            <li style="margin-top:-10px;">&#x27A4 <a href="speakers.html" style="color:white;">Clients</a></li>
+                            <li style="margin-top:-10px;">&#x27A4 <a href="tickets.html" style="color:white;">Products</a></li>
+                            <li style="margin-top:-10px;">&#x27A4 <a href="blog.html" style="color:white;">About Us</a></li>
                         </ul>
                     </div>
                 </div>
